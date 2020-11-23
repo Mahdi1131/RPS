@@ -1,0 +1,29 @@
+
+#rock:hover {
+    box-shadow: 0px 10px 50px rgba(142, 68, 173);
+}
+#paper:hover{
+    box-shadow: 0px 10px 50px rgba(93, 173, 226);
+}
+#scissors:hover{
+    box-shadow: 0px 10px 50px rgba(40, 180, 99);
+}
+
+
+.container, .flex-box-rps {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flex-box-rps{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.flex-box-rps img{
+    padding: 10px;
+    margin: 10px;
+}
